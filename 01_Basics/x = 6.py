@@ -1,10 +1,12 @@
-str1 = "apna"
-len1 = len(str1)
-print(len1)  
-str2 = "collage"
-len2 = len(str2)
-print(len2)
+#conditional statementes
+light = "green"
 
-final_str = str1 + " " +str2
-print(final_str)
-print(len(final_str))
+if(light == "red"):
+    print("stop")
+elif(light == "green"):
+    print("go")
+elif(light == "yellow"):
+    print("look")
+    
+    print("end of code") 
+    
