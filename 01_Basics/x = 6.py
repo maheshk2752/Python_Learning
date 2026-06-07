@@ -1,9 +1,4 @@
-a = 6
-b = 5
-
-print(a == b)
-print(a != b)
-print(a <= b)
-print(a >= b)
-print(a < b)
-print(a > b)
+ a = 56
+ b = 78
+ sum = a + b
+ print(sum)
