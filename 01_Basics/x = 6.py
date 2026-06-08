@@ -1,13 +1,10 @@
 #conditional statementes
-light = "pink"
-
-if(light == "red"):
-    print("stop")
-elif(light == "green"):
-    print("go")
-elif(light == "yellow"):
-    print("look")
+menu = (input("select one item(biryani , pasta , paneer):"))
+if menu == "biryani":
+    print("rate = 80 ")
+elif menu == "pasta":
+    print("rate = 100 ")
+elif menu == "paneer":
+    print("rate = 500")
 else:
-   print("light is  broken")
-            
-print("end of code")   
+    print("out of menu")
