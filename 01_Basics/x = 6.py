@@ -1,10 +1,11 @@
-#conditional statementes
-menu = (input("select one item(biryani , pasta , paneer):"))
-if menu == "biryani":
-    print("rate = 80 ")
-elif menu == "pasta":
-    print("rate = 100 ")
-elif menu == "paneer":
-    print("rate = 500")
+#nested 
+a  = int(input("enter first number:"))
+b  = int(input("enter second number:"))
+c  = int(input("enter third number:"))
+
+if(a>=b and a>=c):
+    print("first is largest number", a)
+elif(b>=c):
+    print("second is largest number", b)
 else:
-    print("out of menu")
+    print("third is largest ", c)
