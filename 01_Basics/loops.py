@@ -1,31 +1,23 @@
-# =====================================================
-# Program: Search a Number in a List using While Loop
-# Author: Mahesh
+ 
+# Program: Display Student Scores
+# Author : Ram  Beekhani
 # Purpose:
-# This program searches for a specific number in a list
-# and displays the index where the number is found.
+# This program demonstrates the use of a for loop
+# to iterate through a list of student scores and
+# display each score with its position.
 # =====================================================
 
-# List of square numbers
-nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# List of student scores
+student_scores = [85, 92, 78, 96, 88]
 
-# Number to search for
-x = 36
+# Display heading
+print("Student Score Report")
+print("-" * 25)
 
-# Starting index
-i = 0
+# Iterate through the list using a for loop
+for index, score in enumerate(student_scores, start=1):
+    print(f"Student {index}: {score} marks")
 
-# Loop through the list until the end
-while i < len(nums):
-
-    # Check if the current element matches the target number
-    if nums[i] == x:
-        print("Found at index:", i)
-        break  # Stop searching once the number is found
-
-    # If the number is not found at the current index
-    else:
-        print("Finding...")
-
-    # Move to the next index
-    i += 1
+# Display completion message
+print("-" * 25)
+print("Report Generated Successfully!")
